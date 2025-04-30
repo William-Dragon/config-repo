@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  security:
+    user:
+      name: Abdul_Wasay
+      password: wasay@123
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/William-Dragon/config-repo.git
+          default-label: main
+          clone-on-start: true
